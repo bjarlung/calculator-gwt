@@ -11,6 +11,29 @@ h1 {
   font-size: 16pt;
 }
 
+.numberButton{
+	padding: 10px;
+	margin: 20px;
+	background-color: #2062B8;
+}
+
+text{
+	color: blue;
+}
+
+.numberPanel{
+	padding: 10px;
+	margin: 20px;
+	background-color: #2062B8;
+}
+.numberButton{
+	background-color: #2062B8;
+}
+
+.calcButton{
+	background-color: #2062B8;
+}
+
 .gwt-DialogBox {
   width: 400px;
 }

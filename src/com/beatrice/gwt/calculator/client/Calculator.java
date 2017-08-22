@@ -48,6 +48,7 @@ public class Calculator implements EntryPoint {
 		
 		numberButtonList = new ArrayList<>();
 		numberPanel = new HorizontalPanel();
+		numberPanel.addStyleName("numberPanel");
 		displayPanel = new HorizontalPanel();
 		operatorPanel = new HorizontalPanel();
 		mainPanel = new VerticalPanel();
@@ -57,6 +58,7 @@ public class Calculator implements EntryPoint {
 		operatorLabel = new Label();
 		activeOperand = operand1Label;
 		calculateButton = new Button("Calculate");
+		calculateButton.addStyleName("calcButton");
 		
 		displayPanel.add(operand1Label);
 		displayPanel.add(operatorLabel);
