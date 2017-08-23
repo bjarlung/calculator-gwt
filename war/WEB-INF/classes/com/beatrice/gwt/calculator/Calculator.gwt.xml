@@ -6,7 +6,8 @@
 
   <inherits name='com.google.gwt.user.User'/>
 
-  <inherits name='com.google.gwt.user.theme.dark.Dark'/>
+  <!--  <inherits name='com.google.gwt.user.theme.dark.Dark'/>  -->
+   <!--<inherits name='com.google.gwt.user.theme.clean.Clean'/> -->
 
   <!-- entry point class.                    				     -->
   <entry-point class='com.beatrice.gwt.calculator.client.Calculator'/>

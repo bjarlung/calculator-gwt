@@ -1,7 +1,12 @@
+body {
+	background-color: #793d7f;
+}
+
+
 h1 {
-  font-size: 2em;
+  font-size: 5em;
   font-weight: bold;
-  color: #777777;
+  color: black;
   margin: 40px 0px 70px;
   text-align: center;
 }
@@ -11,27 +16,34 @@ h1 {
   font-size: 16pt;
 }
 
-.numberButton{
-	padding: 10px;
-	margin: 20px;
-	background-color: #2062B8;
+.resultsHeader {
+  background-color: black;
+  color: white;
+  font-style: italic;
 }
 
-text{
-	color: blue;
+.resultsTable {
+  border: 1px solid silver;
+  padding: 2px;
+  margin-bottom:6px;
 }
 
-.numberPanel{
-	padding: 10px;
-	margin: 20px;
-	background-color: #2062B8;
-}
+
 .numberButton{
-	background-color: #2062B8;
+	font-weight: bold;
+	background: #f29def;
+}
+
+.mainContent{
+	background-color: black !important;
+	padding: 10px !important;
+	margin: 10px;
+	color: white;
+  font-style: italic;
 }
 
 .calcButton{
-	background-color: #2062B8;
+	background-color: #e884e3;
 }
 
 .gwt-DialogBox {
